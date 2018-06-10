@@ -1,0 +1,130 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+html {
+    
+    color: #222;
+    background: url('background.jpg') center/cover no-repeat;
+    min-width: auto;
+    position: fixed;
+    top:0%; height:100%;
+    left:0; width:100%;
+}
+
+svg{
+
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+ 
+}
+
+.menub {
+    position: absolute;
+    left: 12%;
+    bottom: 30%;
+    
+    
+}
+
+.duree {
+    
+    position: absolute;
+    left: 61.7%;
+    top:  21%;
+    font-family: 'Merriweather Sans', sans-serif;
+    color:white;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+
+.timer {
+    
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    font-size: 20px;
+    color:white;
+}
+
+.timer2 {
+    
+    position: absolute;
+    bottom: 470px;
+    left: 945px;
+    font-size: 20px;
+    color:blueviolet;
+    font-family: inherit 'Oswald';
+}
+
+.case {
+    
+   position: relative;
+    width: 300px;
+   top: px;
+    left:50px;
+    color:white;
+    background-color: blueviolet;
+    opacity: 0.5;
+    
+}
+
+.boutondem {
+    
+    position: relative;
+    right: 55px;
+    top: 140px;
+    height: 50px;
+    width: 500px;
+     color: darkgrey;
+    font-size: 30px;
+    background-color: blueviolet;
+    opacity: 0.5;
+    
+    
+}
+
+
+
+.boutonstop {
+    
+     position: absolute;
+     left:51px;
+    top: 74px;
+   height: 50px;
+    width: 150px;
+    color: darkgrey;
+    font-size: 30px;
+    background-color: blueviolet;
+    opacity: 0.5;
+ 
+    
+}
+
+
+.boutonpause {
+    
+     position: relative;
+    left:205px;
+    top: 50px;
+     height: 50px;
+    width: 150px;
+    font-size: 30px; 
+    color: darkgrey;
+    background-color: blueviolet;
+    opacity: 0.5;
+   
+}
+
+
+.gif {
+    
+    position: relative;
+    top: 575px;
+    left: 717px;
+}
